@@ -25,3 +25,10 @@ def test_simple_with_negativestep():
 def test_hebrew():
     r = str_range('א', 'ז', 2)
     assert ''.join(list(r)) == 'אגהז'
+
+
+test_same_start_end()
+test_simple()
+test_simple_with_step()
+test_simple_with_negativestep()
+test_hebrew()
